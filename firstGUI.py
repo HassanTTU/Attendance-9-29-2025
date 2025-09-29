@@ -7,6 +7,7 @@ def greet():
     else:
         output_label.config(text="Please enter your name.")
 
+
 # 1. Main window setup
 root = tk.Tk()
 root.title("Greeting App")
