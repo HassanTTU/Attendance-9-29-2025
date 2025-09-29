@@ -7,6 +7,7 @@ def say_hello(lang):
         "French":  "Bonjour",
         "Dutch":   "Hallo"
     }
+    
     output_label.config(text=greetings.get(lang, "Hello"))  # update the label with the right greeting
 
 root = tk.Tk()                                           # create the main application window
